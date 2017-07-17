@@ -4,6 +4,5 @@
 import functools
 import math
 
-lel = functools.reduce(lambda x, y: x*y//math.gcd(x, y), range(1, 21))
-print(lel)
-print(2520*2520)
+answer = functools.reduce(lambda x, y: x * y // math.gcd(x, y), range(1, 21))
+print(answer)
