@@ -21,5 +21,5 @@ def prime_sieve(number_list):
 
 if __name__ == "__main__":
     primes = make_list()
-    kek = prime_sieve(primes)
-    print(kek[10000])
+    answer = prime_sieve(primes)
+    print(answer[10000])
